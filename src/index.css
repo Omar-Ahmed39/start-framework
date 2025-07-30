@@ -1,0 +1,121 @@
+:root {
+  --main-color: #1abc9c;
+}
+
+.main-bg {
+  background-color: var(--main-color);
+}
+
+.nav-bg {
+  background-color: #2c3e50;
+}
+
+.header i {
+  width: 40px;
+}
+
+.header div:empty {
+  height: 5px;
+  width: 100px;
+  background-color: white;
+}
+
+.portfolio .header div:empty,
+.contact .header div:empty {
+  background-color: #2c3e50;
+}
+
+.portfolio .header,
+.contact .header {
+  color: #2c3e50;
+}
+
+nav {
+  transition: all .25s;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+}
+
+nav .active {
+  background-color: var(--main-color) !important;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+footer li {
+  --circle: 40px;
+  width: var(--circle);
+  height: var(--circle);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+footer:last-child {
+  background-color: #1a252f;
+}
+
+
+.home img {
+  width: 250px;
+}
+
+.about {
+  padding-block: 170px;
+}
+
+.about .container {
+  width: 80%;
+}
+
+.inset-0 {
+  inset: 0;
+}
+
+input:focus {
+  border-color: #dee2e6 !important;
+}
+
+.portfolio .card div {
+  opacity: 0;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+}
+
+.portfolio .card:hover div {
+  opacity: 100;
+}
+
+.portfolio .layer {
+  background-color: rgba(13, 110, 253, .25);
+}
+
+.portfolio .card {
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+
+form label {
+  color: var(--main-color);
+  top: 50%;
+  transition: all .25s;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+}
